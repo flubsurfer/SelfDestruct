@@ -8,9 +8,9 @@ thisfile = os.path.abspath ( __file__ )
 os.remove(thisfile)
 
 #getcwd shows current working directory
-thisdir = os.getcwd()
-os.remove(thisdir)
+#thisdir = os.getcwd()
+#os.remove(thisdir)
 
 #a much more straightforward way to remove the directory
-#os.rmdir(thisdir)
+os.rmdir(thisdir)
 
